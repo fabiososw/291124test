@@ -1,11 +1,12 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'bootstrap-icons/font/bootstrap-icons.css';  
+import { Link } from 'react-router-dom';
 
 const AppNavbar = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-dark"
+      className="navbar navbar-expand-lg bgGradientNav sticky-top"
       data-bs-theme="dark"
       style={{ backgroundColor: '#221f1f' }}
     >
@@ -31,14 +32,10 @@ const AppNavbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active fw-bold" href="#">
-                Home
-              </a>
+            <Link to="/" className='nav-link fw-bold'>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-bold" href="#">
-                TV Shows
-              </a>
+              <Link to="/tvshows" className='nav-link fw-bold'>Tv Shows</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">

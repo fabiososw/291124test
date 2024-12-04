@@ -1,6 +1,6 @@
 const AppFooter = () => {
     return (
-        <footer>
+        <footer className="">
         <div className="row justify-content-center mt-5">
           <div className="col col-6">
             <div className="row">
@@ -62,7 +62,7 @@ const AppFooter = () => {
             </div>
             <div className="row">
               <div className="col mb-2 mt-2 copyright">
-                © 1997-2023 Netflix, Inc.
+                © 1997-2025 Netflix, Inc.
               </div>
             </div>
           </div>

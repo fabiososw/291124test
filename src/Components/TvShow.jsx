@@ -11,7 +11,7 @@ const MovieImage = ({ src, alt }) => {
   );
 };
 
-const AppMain = () => {
+const TvShows = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -119,4 +119,4 @@ const AppMain = () => {
   );
 };
 
-export default AppMain;
+export default TvShows;
